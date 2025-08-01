@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"vuln-mcp": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"./vuln-mcp-server/main.py"
+			]
+		}
+	},
+	"inputs": []
+}
